@@ -3,6 +3,7 @@
 This repository contains the datasets, prompts, and supplementary materials for the paper:
 
 **"URSimulator: Human-Perception-Driven Prompt Tuning for Enhanced Virtual Urban Renewal via Diffusion Models"** 
+
 by **Chuanbo Hu, Shan Jia, and Xin Li**.
 
 ---
