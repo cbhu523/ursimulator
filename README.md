@@ -34,7 +34,7 @@ Additional data may be added in the future.
 
 ---
 
-## Case Study
+## Case Study - Detroit Poletown East
 ![Case Study: Rebuilding Abandoned Houses in Detroit’s Poletown East](./figures/Detroit.jpg)
 
 ---
