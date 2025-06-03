@@ -12,17 +12,17 @@ Tackling Urban Physical Disorder (e.g., abandoned buildings, litter, messy veget
 ---
 
 ## Example
-![Example of Urban Renewal Simulation Using Street View Images](./images/example.jpg)
+![Example of Urban Renewal Simulation Using Street View Images](./figures/example.jpg)
 
 ---
 
 ## Framework
-![Framework of Prompt Tuning-Guided Urban Renewal](./images/framework.jpg)
+![Framework of Prompt Tuning-Guided Urban Renewal](./figures/framework.jpg)
 
 ---
 
 ## Strategies
-![Strategies for Urban Renewal Simulation: Text-Driven Image Editing](./images/strategy.jpg)
+![Strategies for Urban Renewal Simulation: Text-Driven Image Editing](./figures/strategies.jpg)
 
 ---
 
@@ -33,6 +33,12 @@ The sample dataset is available for download at the following link:
 Additional data may be added in the future.  
 
 ---
+
+## Case Study
+![Case Study: Rebuilding Abandoned Houses in Detroit’s Poletown East](./figures/Detroit.jpg)
+
+---
+
 
 ## Citation
 If you use our data or prompts in your research, please cite our paper:
