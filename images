@@ -1,1 +1,51 @@
+## Place Pulse 2.0 Dataset Preparation
+
+This project uses 500 street view images from the MIT Place Pulse 2.0 dataset for experimentation.
+
+### 1. Download the Dataset
+
+1. **Request Access**  
+   The MIT Place Pulse 2.0 dataset is not publicly available for direct download. You must first request access via the official website:  
+   [http://pulse.media.mit.edu/](http://pulse.media.mit.edu/)
+
+2. **Download the Data**  
+   After approval, download the dataset which typically includes:
+   - A folder of street view images (e.g., `images/`)
+   - Metadata and annotations (`image_data.csv`, `pairwise_comparisons.csv`, etc.)
+
+### 2. Extract the 500 Test Images
+
+This repository includes a file named `500_testing_images.csv` which contains the filenames of the 500 street view images used for evaluation.
+
+#### Steps:
+
+1. Make sure the downloaded dataset images are located at `/path/to/PlacePulse2.0/images`.
+
+2. Run the following script to copy the 500 test images into a new directory:
+
+   ```python
+   import os
+   import shutil
+   import pandas as pd
+
+   # Paths
+   dataset_path = '/path/to/PlacePulse2.0/images'  # Update this to your actual path
+   output_path = './testing_images'
+   csv_path = './500_testing_images.csv'
+
+   # Create output directory
+   os.makedirs(output_path, exist_ok=True)
+
+   # Read image names
+   df = pd.read_csv(csv_path)
+   image_list = df['image_name'].tolist()  # Update column name if different
+
+   # Copy images
+   for image_name in image_list:
+       src = os.path.join(dataset_path, image_name)
+       dst = os.path.join(output_path, image_name)
+       if os.path.exists(src):
+           shutil.copy(src, dst)
+       else:
+           print(f"Warning: {image_name} not found in dataset.")
 
