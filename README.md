@@ -28,9 +28,7 @@ Tackling Urban Physical Disorder (e.g., abandoned buildings, litter, messy veget
 
 ## Dataset
 
-The sample dataset is available for download at the following link: 
-
-Additional data may be added in the future.  
+The sample dataset is available for download at the file images
 
 ---
 
